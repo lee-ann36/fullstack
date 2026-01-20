@@ -1,0 +1,165 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.nav-bar {
+  background-color: #003366; 
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  position: relative;
+  height: 75px;
+}
+
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  flex: 1;
+}
+
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  gap: 120px;
+  justify-content: center; 
+  flex: 2; 
+
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s, border-bottom 0.3s;
+  padding-bottom: 4px;
+  font-size: 24px;
+}
+
+
+.nav-bar ul li a:hover {
+  color: #ffcc00;
+}
+
+.logo {
+    flex: none;
+}
+
+.lagen_aantal {
+  width: 400px;
+  margin: 0px 0 20px 50px;
+
+}
+
+
+.lagen_aantal table {
+  width: 400px;
+  border-collapse: collapse;
+}
+
+.lagen_aantal th,
+.lagen_aantal td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+.lagen_aantal th {
+  background: #f2f2f2;
+  font-weight: bold;
+  border-bottom: 2px solid #999;
+}
+
+.lagen_aantal h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.recente_bestellingen{
+  padding-top: 30px;
+  width: 700px;
+  margin: 250px 0 0px 0;
+  
+}
+
+.recente_bestellingen table {
+  width: 400px;
+  border-collapse: collapse;
+  height: 300px;
+}
+
+.recente_bestellingen th,
+.recente_bestellingen td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+.recente_bestellingen th {
+  background: #f2f2f2;
+  font-weight: bold;
+  border-bottom: 2px solid #999;
+}
+
+.recente_bestellingen h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.onbezorgd_bestellingen  {
+  
+  width: 450px;
+  margin: 0px 0 20px 50px;
+
+}
+
+.onbezorgd_bestellingen table {
+  width: 450px;
+  border-collapse: collapse;
+}
+
+.onbezorgd_bestellingen th,
+.onbezorgd_bestellingen td {
+  border-bottom: 1px solid #ccc;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+.onbezorgd_bestellingen th {
+  background: #f2f2f2;
+  font-weight: bold;
+  border-bottom: 2px solid #999;
+}
+
+.onbezorgd_bestellingen h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.home{
+ width: 100%; display: 
+ flex; justify-content: 
+ space-between; /* links en rechts verdelen */ 
+ align-items: flex-start; /* bovenaan uitlijnen */
+ padding: 50px 80px; /* ruimte rondom */ 
+ box-sizing: border-box;
+}
+
+.h1{
+    max-width: 190px;
+    max-height: 70px;
+    margin: 20px 0 0 900px;
+}
+
